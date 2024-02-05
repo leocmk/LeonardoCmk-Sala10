@@ -10,22 +10,30 @@ body{
  }
  
  .font-style{
-     border-bottom: 2px solid lightgray;
+     border-bottom: 2px solid rgb(0, 0, 0);
      font-size: 3rem;
      font-family: 'Single Day', cursive;
      padding-bottom: 15px;
  }
  .font-style02{
-     font-size: 1.8rem;
-     color:darkgrey
+     font-size: 50px;
+     color:rgb(15, 5, 5)
  }
  
  .div-calculos{
-     background-color: rgb(184, 184, 184);
-     padding: 10px;
+     padding: 20px;
      display: flex;
      flex-wrap: wrap;
      flex-direction: row;
      align-items: center;
      justify-content: space-evenly;
+ }
+
+ .div-calculos2{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 350px;
+
+    width: 354px;
+
+    display: inline-block;
  }
