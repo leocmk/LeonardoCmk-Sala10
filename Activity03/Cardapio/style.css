@@ -1,0 +1,74 @@
+*{}
+
+body{
+height: auto;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+}
+.body8{
+  
+    width: 100%;
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+
+
+
+.h1{
+    width: 100%;
+}
+
+.opcoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 250px;
+
+
+}
+.card{
+    font-size: 40px;
+}
+.card-body{
+    font-size: 20px;
+    background-color:lavender;
+
+
+}
+.card-text{
+    
+}
+.cardapio{
+    display: flex;
+    align-items: column;
+    justify-content: center;
+}
+.card-img-top{
+    height: 300px;
+    width: auto;
+    
+}
+.btn-group{
+    margin-top: 20px;
+
+}
+
+@media(width <= 1024px){
+    .opcoes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    
+}
+}

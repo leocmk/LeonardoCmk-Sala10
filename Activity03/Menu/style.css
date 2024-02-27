@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../imagens/fundo-browser.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    transition: all 1s linear;
+    overflow: hidden;
+}
+
+.wrap-everything{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    height: 100%;
+    width: 100%;
+}
+
+.wrap-img{
+    margin-bottom: 4vh;
+    opacity: 0.8;
+    animation: fromTop 2s linear;
+}
+
+@keyframes fromTop {
+    0%{
+        transform: translateY(-200px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.img-style{
+    width: 320px;
+    height: auto;
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.wrap-p{
+    font-family: "Caveat", cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+
+p{
+    font-size: 5rem;
+    font-weight: 7000;
+    color: rgb(0, 0, 0);
+    text-shadow: 10px 10px 10px rgba(192, 5, 5, 0.562);
+    filter: blur(0.5px);
+    animation: show 2s linear;
+    transition: all 200ms ;
+
+}
+
+@keyframes show{
+    from{
+        opacity: 0.1;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@media(width >= 800px){
+    body{
+        background-image: url(../imagens/fundo-browser.avif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: auto;
+        transition: all 1s linear;
+        overflow: hidden;
+    }
+    .img-style{
+        width: 350px;
+        height: auto;
+        opacity: 0.8;
+        transition: all 200ms linear;
+    }
+    .img-style:hover{
+        width: 400px;
+        height: auto;
+        opacity: 1;
+        transition: all 200ms linear;
+    }
+    p{
+        color: black;
+        font-size: 6rem;
+        font-weight: 900;
+        opacity: 0.8;
+        filter: blur(0.8px);
+        transition: all 200ms linear;
+    }
+    p:hover{
+        cursor: pointer;
+        font-size: 7rem;
+        font-weight: 900;
+        opacity: 1;
+        filter: blur(0px);
+        transition: all 200ms linear;
+    }
+}
