@@ -1,4 +1,6 @@
-*{}
+*{
+}
+
 
 body{
 height: auto;
@@ -10,7 +12,6 @@ flex-direction: column;
 
 }
 .body8{
-  
     width: 100%;
     display: flex;
 align-items: center;
@@ -39,17 +40,14 @@ flex-direction: column;
 }
 .card-body{
     font-size: 20px;
-    background-color:lavender;
-
-
+    background-color:rgb(5, 5, 7);
 }
-.card-text{
     
-}
 .cardapio{
     display: flex;
     align-items: column;
     justify-content: center;
+    
 }
 .card-img-top{
     height: 300px;
@@ -58,7 +56,7 @@ flex-direction: column;
 }
 .btn-group{
     margin-top: 20px;
-
+    
 }
 
 @media(width <= 1024px){
@@ -114,7 +112,7 @@ html, body{
         .top{
           height: 80%;
           width:100%;
-          background: url(https://s-media-cache-ak0.pinimg.com/736x/49/80/6f/49806f3f1c7483093855ebca1b8ae2c4.jpg) no-repeat center center; 
+          background: url(../imagens/camisa.avif) no-repeat center center; 
       -webkit-background-size: 100%;
       -moz-background-size: 100%;
       -o-background-size: 100%;
@@ -127,7 +125,7 @@ html, body{
             .top{
               height: 80%;
               width:100%;
-              background: url(../imagens/moletomM.png) no-repeat center center; 
+              background: url(../imagens/MCinza.avif) no-repeat center center; 
           -webkit-background-size: 100%;
           -moz-background-size: 100%;
           -o-background-size: 100%;
@@ -149,8 +147,8 @@ html, body{
           position:relative;
           float:left;
           .details{
-            padding: 20px;
-            float: left;
+           padding: 5px;
+            float: left; 
             width: calc(70% - 40px);
           }
           .buy{
@@ -204,10 +202,10 @@ html, body{
             clear: both;
             border-right:solid thin rgba(255,255,255,0.3);
             height:50%;
-            background: #BC3B59;
+            background: #0e090a;
             transition: transform 0.5s, background 0.5s;
             &:hover{
-              background: #9B2847;
+              background: #181516;
             }
             &:hover i{
               transform: translateY(5px);
@@ -225,8 +223,7 @@ html, body{
             }
           }
         }
-      }
-    }
+     
     
     .inside{
       z-index:9;
@@ -281,4 +278,9 @@ html, body{
         }
       }
     }
-  }
+  .moleta{
+    font-size: medium;
+    }
+    .CamiB{
+      font-size: medium;
+    }
